@@ -38,13 +38,13 @@ $(document).ready(function() {
   ///// SOUNDS /////
 
   var bell = document.createElement('audio');
-  bell.setAttribute('src', 'https://dl.dropboxusercontent.com/s/ayowe707h0vonfg/Bell.mp3');
+  bell.setAttribute('src', 'sounds/bell.mp3');
   var pebbles = document.createElement('audio');
-  pebbles.setAttribute('src', 'https://dl.dropboxusercontent.com/s/91kjwgf447osf4b/Pebbles.mp3');
+  pebbles.setAttribute('src', 'sounds/pebbles.mp3');
   var one = document.createElement('audio');
-  one.setAttribute('src', 'https://dl.dropboxusercontent.com/s/kacdrxp3j6kk0ux/One.mp3');
+  one.setAttribute('src', 'sounds/one.mp3');
   var space = document.createElement('audio');
-  space.setAttribute('src', 'https://dl.dropboxusercontent.com/s/iemwrv9l5x8r6y9/New.mp3');
+  space.setAttribute('src', 'sounds/space.mp3');
 
   function playSound() {
     var sound = $("input[name=sounds]:checked").val();
